@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="space.css" />
+  </head>
+  <body>
+    <div id="form-container">
+      <div>
+        <label for="start-date"> Start Date</label>
+        <input type="date" id="start-date" name="start_date" />
+      </div>
+      <div>
+        <label for="end-date"> End Date </label>
+        <input type="date" id="end-date" name="end_date" />
+      </div>
+      <input id="button" type="submit" />
+    </div>
+
+    <div>
+      <table id="table">
+        <tr id="table-row">
+          <th class="table-header">ID</th>
+          <th class="table-header">Max Diameter</th>
+          <th class="table-header">Potentially Hazardous</th>
+          <th class="table-header">Miss Distance</th>
+        </tr>
+      </table>
+    </div>
+    <script src="space.js">  </script>
+  </body>
+</html>
